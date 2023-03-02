@@ -1,0 +1,24 @@
+DELETE http://127.0.0.1:5000/books/3
+Accept: application/json
+
+###
+POST http://127.0.0.1:5000/books
+Content-Type: application/json
+
+{
+      "author": "余华1111",
+      "book_name": "活着122",
+      "book_number": "0033",
+      "book_prize": 39.9,
+      "book_publisher": "XX出版社",
+      "book_type": "小说11"
+}
+
+###
+GET http://127.0.0.1:5000/books/
+Accept: application/json
+
+
+
+###
+
